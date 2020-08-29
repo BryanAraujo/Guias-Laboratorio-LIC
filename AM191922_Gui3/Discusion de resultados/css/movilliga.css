@@ -1,0 +1,42 @@
+/*Parte superior*/
+#superior{
+    width: auto;
+    margin: auto;
+    height: 10%;
+ }
+ #logo{
+    display: block;
+   width: 100%;
+
+  }
+  #PosicionesLogo{
+    display: block;
+    width: 100%;
+}
+ #Posiciones{
+     text-align: center;
+ color: black;
+ }
+ #descripcion1{
+     width: auto;
+     background-color:white;
+    
+ }
+ 
+ #informacion h2{
+    text-align: center;
+    color: black;
+    padding-top: 03%;
+ }
+ #informacion img{
+     width: 100%;
+ }
+ #descripcion1 p{
+     margin: 2%;
+     color: black;
+     font-weight: bold;
+     line-height: 100%;
+     text-align: justify;
+     font-size: 0.75em;
+ }
+ 
