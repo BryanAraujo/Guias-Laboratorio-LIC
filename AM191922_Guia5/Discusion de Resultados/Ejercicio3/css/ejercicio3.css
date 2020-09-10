@@ -1,0 +1,13 @@
+*{
+    background-color: skyblue;
+}
+div{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 25%;
+    
+}
+p{
+    padding: 25px 25px;
+    background-color: red;
+}

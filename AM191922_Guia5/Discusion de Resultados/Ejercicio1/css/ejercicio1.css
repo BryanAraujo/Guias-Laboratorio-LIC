@@ -1,0 +1,50 @@
+html{
+    background: teal;
+}
+
+header {
+    text-align: center;
+    
+    background:hsl(220, 87%, 55%);
+    
+}
+#Contenido{
+    width: 68%;
+    height: 100%;
+    background: #ccc;
+    float: left;
+    padding: 100px;
+   padding-bottom: 20%;
+    /*padding-top:30px;*/
+}
+
+#Cubos{
+    width: 85%;
+    height: 90%;
+    padding: 15px;
+    padding-left: 15px;
+    margin-top: 20px;
+    margin-right: 25px;
+ background-color: red;
+}
+aside {
+    width: 200px;
+    height: 100px;
+    float: right;
+    
+}
+#footer {
+    position: relative;
+    margin-top: 50px;
+    height: 40px; 
+    padding:5px 0px;
+    clear: both;
+    background: #286af0;
+    text-align: center;
+    color: #fff;
+}
+#nombre{
+    font-style: inherit;
+    font-size: 25px;
+    text-align: center;
+}

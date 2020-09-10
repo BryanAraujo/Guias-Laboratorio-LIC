@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Document write</title>
+<link rel="stylesheet" href="css/ejercicio1.css">
+
+    
+    
+</head>
+
+
+<body>
+ 
+
+
+        <!-- Cabecera -->
+        <header>
+            <script>
+                document.write("<h1>Uso del document.write</h2>")
+            </script>
+        </header>
+
+        <!-- Contenido -->
+        <section id="Contenido">
+           <article>
+               <script>
+                   var nombre = 'Luis'
+                   var apellido = 'Arce'
+                   var edad = '20'
+                   document.write('<h1>Aqui un pequeño ejemplo de como se puede utilizar el document.write para escribir directamente en el HTML.</h1>');
+                   document.write('<div id="nombre"><br>Nombre:' +nombre+ '<br> Apellido: '+apellido+'<br>Edad: '+ edad+'</div>');
+               </script>
+
+           </article>
+        </section>
+
+
+        <!-- Contenido relacionado-->
+        <section id="borde">
+        <aside>
+            <div id="Cubos"><script>document.write('Comentario quemado')</script></div>
+            <div id="Cubos"><script>document.write('Comentario quemado')</script></div>
+            <div id="Cubos"><script>document.write('Comentario quemado')</script></div>
+        </aside>
+  
+        </section>
+        <!-- Pie de pagina -->
+       <section id="footer">
+           <div>
+               <script>
+                   document.write('Aqui se puso el pie de pagina con document.write')
+               </script>
+           </div>
+
+       </section>
+
+
+</body>
+</html>
